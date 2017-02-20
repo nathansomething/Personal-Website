@@ -1,0 +1,36 @@
+nav {
+
+  display: flex;
+  flex: 1 1 100%;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+
+  h2 {
+    font-size: 2em;
+  }
+
+  ul {
+
+    list-style-type: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+
+    li {
+
+      display: inherit;
+
+      a {
+        margin: 0 0.5em;
+        font-size: 2em;
+        flex-wrap: nowrap;
+        display: inherit;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
