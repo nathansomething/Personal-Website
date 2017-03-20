@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef } from '@angular/core';
 import { Location } from '@angular/common';
 
 @Component({
@@ -7,5 +7,14 @@ import { Location } from '@angular/common';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app works!';
+
+  root:ElementRef;
+
+  constructor(root: ElementRef) {
+    this.root = root;
+  }
+
+  alert_scroll($event:Event):void {
+    console.log(this.root.nativeElement.childNodes[0]);
+  }
 }

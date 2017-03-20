@@ -1,2 +1,94 @@
-<navbar></navbar>
-<title-block></title-block>
+<!-- <main (scroll)="alert_scroll($event)"> -->
+<main>
+  <navbar-block></navbar-block>
+  <intro-block id="home"></intro-block>
+  <app-page title="About Me" id="AboutMe">
+    <p>
+      I am a full stack developer, born and raised in Portland Oregon, and currently located in Boston Massachusetts, where I am 5th-year student at Northeastern University. I am pursuing a Bachelor of Science in Computer Science, and minors in Russian Studies and History.
+    </p>
+    <p>
+      My interest in software development goes all the way back to middle school. In 6th grade, I joined my school's FLL Lego Robotics team, where I was first exposed to programming. I loved being able to use code as a tool to solve problems, and I've always been amazed at how a bit of text on a screen can be compiled and brought to life. I also picked up a book on HTML in the seventh grade, and taught myself the basics of web design.
+    </p>
+    <p>
+      Being in love with robotics and programming, I joined my high school’s FRC team as a Freshman. Although I loved getting to learn about the mechanical and electrical parts of the robot, I confirmed that my true passion was programming. I was on the programming team from Sophomore through Senior year, and was the team leader during my senior year.
+    </p>
+    <p>
+      Robotics had taught me the basics of logic and C++, but I wanted to learn more. Unfortunately, my high school didn't offer any programming classes, so I took two introductory computer science classes at Portland Community College. These skills paved the way for my first internship during my senior year of high school at Vernier Software and Technology.
+    </p>
+    <p>
+      Since coming to Northeastern, I've grown immensely both as a person and as a programmer. My coursework has challenged me, given me a new perspective, and opened my mind to different ways of thinking. My classmates have inspired me and pushed me to become my best self. I love energy of Boston and its thriving tech community, and I love attending lectures, hackathons, and meetups all around the city. During my time at Northeastern, I've held three internships, totalling around 18 months of work experience.
+    </p>
+    <p>
+      In addition to Computer Science, I'm pursuing a minor in Russian Studies. I've studied Russian for 5 years and hope to someday be fluent. I love to read Russian books, listen to Russian Music, and practice with native speakers.
+    </p>
+    <p>
+      I am also pursuing a minor in History. I find learning about the past both interesting and informative. I strongly believe that if you truly want to understand something, you first need to understand how it came about.
+    </p>
+    <p>
+      In my spare time, I love travelling, hiking, biking, cooking, and playing board and role-playing games.
+    </p>
+  </app-page>
+  <app-page title="Professional Experience" id="ProfessionalExperience">
+    <card-block image-url="../assets/smartleaf.png" title="Back-End Co-op" date="January 2016 - April 2016">
+        Refactored antiquated C code to conform to C++11 standards (C++).
+        Redesigned engine logic to fix analytics errors and improve accuracy (C++).
+        Added new constructs that allow for easier debugging and testing of the codebase (C++).
+        Constructed web application to help analyze analytics data (JavaScript, Angular JS).
+    </card-block>
+    <card-block image-url="../assets/smartleaf.png" title="From-End Co-op" date="May 2016 - August 2016">
+        Designed, implemented, and tested a new rails application that displays customer data in a human readable
+        format (Ruby on Rails, Knockout JS).
+        Improved test coverage and fixed bugs on the main web application (Ruby, Capybara).
+    </card-block>
+    <card-block date="January 2015 - August 2015" title="IT Risk Management Co-op" image-url="../assets/eatonvance.png">
+      Assisted IT department with various development needs. Created several Windows Server Applications (C#) and constructed a framework for regression testing in-house applications using Selenium (Java).
+    </card-block>
+    <card-block date="May 2013 - August 2013" title="Development Intern" image-url="../assets/opensesame.png">
+      Programmed dashboards (C#) and constructed prototype for new web app (jQuery, PHP, JSON). Coordinated with marketing team, attended development meetings, and met regular deadlines.
+    </card-block>
+    <card-block date="October 2011 - June 2012" title="Robotics Intern" image-url="../assets/vernier.png">
+      Built plug-in to make Vernier Sensors compatible with VEX Cortex (C, C++). Wrote demo program using magnetic field sensor that was presented at a local conference.
+    </card-block>
+  </app-page>
+  <app-page title="Skills" id="Skills">
+    <table class="table">
+      <thead>
+        <th>Category</th>
+        <th>Specifics</th>
+      </thead>
+      <tbody>
+          <tr>
+              <td>Programming Languages</td>
+              <td>Java, C++, C#, Ruby, Python, JavaScript, C, Racket (Lisp-like)</td>
+          </tr>
+          <tr>
+              <td>Web Frameworks</td>
+              <td>Ruby on Rails, Angular JS (1 & 2), Spring MVC, Knockout JS</td>
+          </tr>
+          <tr>
+              <td>Database</td>
+              <td>MySQL, Oracle SQL, JDBC, Active Record (rails), Hibernate ORM</td>
+          </tr>
+          <tr>
+              <td>Operating Systems</td>
+              <td>Linux (Ubuntu, Debian, Fedora), Windows (XP – 8)</td>
+          </tr>
+          <tr>
+              <td>UNIX Terminal</td>
+              <td>Common UNIX Commands, ssh, git, apt-get, vi (basic knowledge)</td>
+          </tr>
+          <tr>
+              <td>GUI</td>
+              <td>Qt, Java Swing</td>
+          </tr>
+          <tr>
+               <td>Testing</td>
+               <td>JUnit, Selenium, Capybara, MiniTest (Ruby)</td>
+          </tr>
+      </tbody>
+    </table>
+  </app-page>
+  <app-page title="Projects" id="Projects"><h3 style="width: 100vw; text-align: center">Under Construction</h3></app-page>
+  <app-page title="Courses" id="Courses"><h3 style="width: 100vw; text-align: center">Under Construction</h3></app-page>
+  <app-page title="Contact" id="Contact"><h3 style="width: 100vw; text-align: center">Under Construction</h3></app-page>
+</main>

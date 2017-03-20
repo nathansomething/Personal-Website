@@ -2,14 +2,19 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { Ng2PageScrollModule } from 'ng2-page-scroll';
 
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { TitleBlockComponent } from './title-block/title-block.component';
+import { NavbarBlockComponent } from './navbar-block/navbar-block.component';
+import { IntroBlockComponent } from './intro-block/intro-block.component';
+import { AboutBlockComponent } from './about-block/about-block.component';
+import { PageComponent } from './page/page.component';
+import { PadBlockComponent } from './pad-block/pad-block.component';
+import { CardBlockComponent } from './card-block/card-block.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, TitleBlockComponent],
-  imports: [BrowserModule,FormsModule,HttpModule],
+  declarations: [AppComponent, NavbarBlockComponent, IntroBlockComponent, AboutBlockComponent, PageComponent, PadBlockComponent, CardBlockComponent],
+  imports: [BrowserModule,FormsModule,HttpModule,Ng2PageScrollModule.forRoot()],
   providers: [],
   bootstrap: [AppComponent]
 })
