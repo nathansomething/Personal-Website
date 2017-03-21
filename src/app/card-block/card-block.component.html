@@ -1,5 +1,7 @@
 <section>
-  <img [src]="image_url">
+  <ng-container *ngIf="image_url">
+    <img [src]="image_url">
+  </ng-container>
   <h4>{{title}}</h4>
   <p>
     <ng-content></ng-content>
