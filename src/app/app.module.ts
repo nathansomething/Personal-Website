@@ -11,9 +11,10 @@ import { AboutBlockComponent } from './about-block/about-block.component';
 import { PageComponent } from './page/page.component';
 import { PadBlockComponent } from './pad-block/pad-block.component';
 import { CardBlockComponent } from './card-block/card-block.component';
+import { ContactFormBlockComponent } from './contact-form-block/contact-form-block.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarBlockComponent, IntroBlockComponent, AboutBlockComponent, PageComponent, PadBlockComponent, CardBlockComponent],
+  declarations: [AppComponent, NavbarBlockComponent, IntroBlockComponent, AboutBlockComponent, PageComponent, PadBlockComponent, CardBlockComponent, ContactFormBlockComponent],
   imports: [BrowserModule,FormsModule,HttpModule,Ng2PageScrollModule.forRoot()],
   providers: [],
   bootstrap: [AppComponent]
