@@ -1,57 +1,55 @@
-<!-- <main (scroll)="alert_scroll($event)"> -->
 <main>
   <navbar-block></navbar-block>
   <intro-block id="home"></intro-block>
-  <app-page title="About Me" id="AboutMe">
+  <app-page title="About Me" backgroundImage="congruent_outline.png" backgroundCover="false" textColor="light">
     <p>
-      I am a full stack developer, born and raised in Portland Oregon, and currently located in Boston Massachusetts, where I am 5th-year student at Northeastern University. I am pursuing a Bachelor of Science in Computer Science, and minors in Russian Studies and History.
+      I am a Full Stack Software Developer with Quality Assurance experience located in Troy, New York. I was born and raised in Portland Oregon and obtained a Bachelor of Science in Computer Science at Northeastern University in Boston Massachusetts. Following college, I returned to my hometown where I married my then 7-year girlfriend and love of my life. We then moved to Troy, where she's pursuing a Ph.D. in biology at RPI.
     </p>
     <p>
-      My interest in software development goes all the way back to middle school. In 6th grade, I joined my school's FLL Lego Robotics team, where I was first exposed to programming. I loved being able to use code as a tool to solve problems, and I've always been amazed at how a bit of text on a screen can be compiled and brought to life. I also picked up a book on HTML in the seventh grade, and taught myself the basics of web design.
+      My interest in software development goes all the way back to middle school. In 6th grade, I joined my school's FLL Lego Robotics team, where I was first exposed to programming. I loved being able to use code as a tool to solve problems, and I've always been amazed at how a bit of text on a screen can be compiled and brought to life. I also picked up a book on HTML in the seventh grade and taught myself the basics of web design.
     </p>
     <p>
-      Being in love with robotics and programming, I joined my high school’s FRC team as a Freshman. Although I loved getting to learn about the mechanical and electrical parts of the robot, I confirmed that my true passion was programming. I was on the programming team from Sophomore through Senior year, and was the team leader during my senior year.
+      Being in love with robotics and programming, I joined my high school’s FRC team as a Freshman. Although I loved getting to learn about the mechanical and electrical parts of the robot, I confirmed that my true passion was programming. I was on the programming team from Sophomore through Senior year and was the team leader during my Senior year.
     </p>
     <p>
       Robotics had taught me the basics of logic and C++, but I wanted to learn more. Unfortunately, my high school didn't offer any programming classes, so I took two introductory computer science classes at Portland Community College. These skills paved the way for my first internship during my senior year of high school at Vernier Software and Technology.
     </p>
     <p>
-      Since coming to Northeastern, I've grown immensely both as a person and as a programmer. My coursework has challenged me, given me a new perspective, and opened my mind to different ways of thinking. My classmates have inspired me and pushed me to become my best self. I love energy of Boston and its thriving tech community, and I love attending lectures, hackathons, and meetups all around the city. During my time at Northeastern, I've held three internships, totalling around 18 months of work experience.
+      At Northeastern, I grew immensely both as a programmer and as an individual. My coursework challenged me, introduced me to new perspectives, and opened my mind to new possibilities. My classmates inspired me and pushed me to become my best self. After crawling out of my shell a bit, I discovered the energy of Boston and its thriving tech community. I loved attending lectures, hackathons, and meetups all around the city. During my time at Northeastern, I had three internships, totaling around 20 months of work experience.
     </p>
     <p>
-      In addition to Computer Science, I'm pursuing a minor in Russian Studies. I've studied Russian for 5 years and hope to someday be fluent. I love to read Russian books, listen to Russian Music, and practice with native speakers.
+      In addition to Computer Science, I also obtained minors in History and Russian Studies.  I find learning about the past both interesting and informative. In order to truely understand something, you first have to understand how it came about. I've been speaking Russian as a second language for many years now, and hope to someday become fluent.
     </p>
     <p>
-      I am also pursuing a minor in History. I find learning about the past both interesting and informative. I strongly believe that if you truly want to understand something, you first need to understand how it came about.
-    </p>
-    <p>
-      In my spare time, I love travelling, hiking, biking, cooking, and playing board and role-playing games.
+      Outside of coding, I love cooking, board games, and role-playing games. I love being around nature and when the weather is nice (or sometimes even when it's not!) I love going hiking or camping with my wife and my dog. I also love traveling and exploring new places.
     </p>
   </app-page>
-  <app-page title="Professional Experience" id="ProfessionalExperience">
-    <card-block image-url="../assets/smartleaf.png" title="Back-End Co-op" date="January 2016 - April 2016">
-        Refactored antiquated C code to conform to C++11 standards (C++).
-        Redesigned engine logic to fix analytics errors and improve accuracy (C++).
-        Added new constructs that allow for easier debugging and testing of the codebase (C++).
-        Constructed web application to help analyze analytics data (JavaScript, Angular JS).
-    </card-block>
-    <card-block image-url="../assets/smartleaf.png" title="From-End Co-op" date="May 2016 - August 2016">
-        Designed, implemented, and tested a new rails application that displays customer data in a human readable
-        format (Ruby on Rails, Knockout JS).
-        Improved test coverage and fixed bugs on the main web application (Ruby, Capybara).
-    </card-block>
-    <card-block date="January 2015 - August 2015" title="IT Risk Management Co-op" image-url="../assets/eatonvance.png">
-      Assisted IT department with various development needs. Created several Windows Server Applications (C#) and constructed a framework for regression testing in-house applications using Selenium (Java).
-    </card-block>
-    <card-block date="May 2013 - August 2013" title="Development Intern" image-url="../assets/opensesame.png">
-      Programmed dashboards (C#) and constructed prototype for new web app (jQuery, PHP, JSON). Coordinated with marketing team, attended development meetings, and met regular deadlines.
-    </card-block>
-    <card-block date="October 2011 - June 2012" title="Robotics Intern" image-url="../assets/vernier.png">
-      Built plug-in to make Vernier Sensors compatible with VEX Cortex (C, C++). Wrote demo program using magnetic field sensor that was presented at a local conference.
-    </card-block>
+  <app-page title="Professional Experience" backgroundImage="textured_paper.png" backgroundColor="#6893b3" textColor="dark">
+    <scroll-box>
+      <card-block image-url="../assets/smartleaf.png" title="Back-End Co-op" date="January 2016 - April 2016">
+          Refactored antiquated C code to conform to C++11 standards (C++).
+          Redesigned engine logic to fix analytics errors and improve accuracy (C++).
+          Added new constructs that allow for easier debugging and testing of the codebase (C++).
+          Constructed web application to help analyze analytics data (JavaScript, Angular JS).
+      </card-block>
+      <card-block image-url="../assets/smartleaf.png" title="From-End Co-op" date="May 2016 - August 2016">
+          Designed, implemented, and tested a new rails application that displays customer data in a human readable
+          format (Ruby on Rails, Knockout JS).
+          Improved test coverage and fixed bugs on the main web application (Ruby, Capybara).
+      </card-block>
+      <card-block date="January 2015 - August 2015" title="IT Risk Management Co-op" image-url="../assets/eatonvance.png">
+        Assisted IT department with various development needs. Created several Windows Server Applications (C#) and constructed a framework for regression testing in-house applications using Selenium (Java).
+      </card-block>
+      <card-block date="May 2013 - August 2013" title="Development Intern" image-url="../assets/opensesame.png">
+        Programmed dashboards (C#) and constructed prototype for new web app (jQuery, PHP, JSON). Coordinated with marketing team, attended development meetings, and met regular deadlines.
+      </card-block>
+      <card-block date="October 2011 - June 2012" title="Robotics Intern" image-url="../assets/vernier.png">
+        Built plug-in to make Vernier Sensors compatible with VEX Cortex (C, C++). Wrote demo program using magnetic field sensor that was presented at a local conference.
+      </card-block>
+    </scroll-box>
   </app-page>
-  <app-page title="Skills" id="Skills">
-    <table class="table">
+  <app-page title="Skills" backgroundImage="brick-wall.jpg" textColor="dark">
+    <table>
       <thead>
         <th>Category</th>
         <th>Specifics</th>
@@ -88,54 +86,58 @@
       </tbody>
     </table>
   </app-page>
-  <app-page title="Projects" id="Projects">
-    <card-block date="" title="NOTE">Many of these are hackathon projects and as such, their status and quality may vary greatly.</card-block>
-    <card-block date="" title="CollectTheFruit">Mario style game in which a player collects fruit in the sky, and avoids the junk food.</card-block>
-    <card-block date="" title="Dolfin">Casual Learning Application.</card-block>
-    <card-block date="" title="Chunkr">Web Application to let students better collaberate with each other while writing essays.</card-block>
-    <card-block date="" title="Northeastern Schedule Crawler">Unable to obtain northeastern course data in an acceptable format, I wrote a webcrawler in Selenium that logs into the Northeastern student panel and scrapes off all of the course data.</card-block>
-    <card-block date="" title="Northeastern Course Schedulizer">Unimpressed with Northeastern's current class registration system, my team build our own course registration application.</card-block>
-    <card-block date="" title="Hack Connection">Inspired by the caotic team-meaking process at HackBeanpot, we designed an application that simplifies the team making process at hackathons.</card-block>
-    <card-block date="" title="Snow Ranger">Uses crowdsourcing to map the accessibility of sidewalks after a snowstorm.</card-block>
-    <card-block date="" title="Idontgiveuh">The world's dumbest recomendation engine! Ask it for advice on a number of topics and it will randomly and hilariously tell you what to do.</card-block>
-    <card-block date="" title="Aviato">Taken from the HBO Show <i>Silicon Valley</i>, it's what we imagine Aviato to be. In this case, it's an application that allows "desperate people" to pay for "attractive people" to sit next to them on airplanes, and "attractive people" to get free airline tickets.</card-block>
-    <card-block date="" title="Lure Books">Allows users to listen to Audible Audiobooks on the Microsoft Hololens</card-block>
-    <card-block date="" title="Nejapp">Desktop application to help bank tellers better communicate with their customers</card-block>
-    <card-block date="" title="Personal Website">This website! It's build from scratch using angular 2.</card-block>
+  <app-page title="Projects" backgroundImage="binary.jpg" textColor="light">
+    <scroll-box>
+      <card-block date="" title="NOTE">Many of these are hackathon projects and as such, their status and quality may vary greatly.</card-block>
+      <card-block date="" title="CollectTheFruit">Mario style game in which a player collects fruit in the sky, and avoids the junk food.</card-block>
+      <card-block date="" title="Dolfin">Casual Learning Application.</card-block>
+      <card-block date="" title="Chunkr">Web Application to let students better collaberate with each other while writing essays.</card-block>
+      <card-block date="" title="Northeastern Schedule Crawler">Unable to obtain northeastern course data in an acceptable format, I wrote a webcrawler in Selenium that logs into the Northeastern student panel and scrapes off all of the course data.</card-block>
+      <card-block date="" title="Northeastern Course Schedulizer">Unimpressed with Northeastern's current class registration system, my team build our own course registration application.</card-block>
+      <card-block date="" title="Hack Connection">Inspired by the caotic team-meaking process at HackBeanpot, we designed an application that simplifies the team making process at hackathons.</card-block>
+      <card-block date="" title="Snow Ranger">Uses crowdsourcing to map the accessibility of sidewalks after a snowstorm.</card-block>
+      <card-block date="" title="Idontgiveuh">The world's dumbest recomendation engine! Ask it for advice on a number of topics and it will randomly and hilariously tell you what to do.</card-block>
+      <card-block date="" title="Aviato">Taken from the HBO Show <i>Silicon Valley</i>, it's what we imagine Aviato to be. In this case, it's an application that allows "desperate people" to pay for "attractive people" to sit next to them on airplanes, and "attractive people" to get free airline tickets.</card-block>
+      <card-block date="" title="Lure Books">Allows users to listen to Audible Audiobooks on the Microsoft Hololens</card-block>
+      <card-block date="" title="Nejapp">Desktop application to help bank tellers better communicate with their customers</card-block>
+      <card-block date="" title="Personal Website">This website! It's build from scratch using angular 2.</card-block>
+    </scroll-box>
   </app-page>
-  <app-page title="Courses" id="Courses">
-    <card-block date="Spring 2013" title="Discrete Structures"></card-block>
-    <card-block date="Spring 2013" title="Fundamentals of Computer Sci 1"></card-block>
-    <card-block date="Spring 2013" title="College Writing"></card-block>
-    <card-block date="Spring 2013" title="Elementary Russian 1"></card-block>
-    <card-block date="Fall 2013" title="Fundamentals of Computer Sci 2"></card-block>
-    <card-block date="Fall 2013" title="Logic and Computation"></card-block>
-    <card-block date="Fall 2013" title="Linguistic Analysis"></card-block>
-    <card-block date="Fall 2013" title="Calculus 2 for Sci/Engr"></card-block>
-    <card-block date="Spring 2014" title="Object-Oriented Design"></card-block>
-    <card-block date="Spring 2014" title="Linear Algebra"></card-block>
-    <card-block date="Spring 2014" title="Probability and Statistics"></card-block>
-    <card-block date="Spring 2014" title="Elementary Russian 2"></card-block>
-    <card-block date="Summer 2014" title="Algorithms & Data"></card-block>
-    <card-block date="Summer 2014" title="Northeastern Dialog of Civilization: Russia"></card-block>
-    <card-block date="Fall 2014" title="Database Design"></card-block>
-    <card-block date="Fall 2014" title="Computer Systems"></card-block>
-    <card-block date="Fall 2014" title="Intro to Russian Civilization"></card-block>
-    <card-block date="Fall 2014" title="Intermediate Russian 2"></card-block>
-    <card-block date="Summer 2015" title="Advanced Writing in Tech Prof"></card-block>
-    <card-block date="Summer 2015" title="Modern Middle East"></card-block>
-    <card-block date="Fall 2015" title="Networks & Distributed Systems"></card-block>
-    <card-block date="Fall 2015" title="Software Development"></card-block>
-    <card-block date="Fall 2015" title="Human Computer Interaction"></card-block>
-    <card-block date="Fall 2015" title="Special Topics in Russian"></card-block>
-    <card-block date="Fall 2016" title="Theory of Computation"></card-block>
-    <card-block date="Fall 2016" title="Programming Languages"></card-block>
-    <card-block date="Fall 2016" title="Network Security"></card-block>
-    <card-block date="Fall 2016" title="Europ Jewish History 1750-1945"></card-block>
-    <card-block date="Spring 2017" title="Embedded Des Enabling Robotics"></card-block>
-    <card-block date="Spring 2017" title="Technology and Human Values"></card-block>
+  <app-page title="Courses" backgroundImage="yellow-notebook-paper-texture.jpg" backgroundCover="true">
+    <scroll-box>
+      <card-block date="Spring 2013" title="Discrete Structures"></card-block>
+      <card-block date="Spring 2013" title="Fundamentals of Computer Sci 1"></card-block>
+      <card-block date="Spring 2013" title="College Writing"></card-block>
+      <card-block date="Spring 2013" title="Elementary Russian 1"></card-block>
+      <card-block date="Fall 2013" title="Fundamentals of Computer Sci 2"></card-block>
+      <card-block date="Fall 2013" title="Logic and Computation"></card-block>
+      <card-block date="Fall 2013" title="Linguistic Analysis"></card-block>
+      <card-block date="Fall 2013" title="Calculus 2 for Sci/Engr"></card-block>
+      <card-block date="Spring 2014" title="Object-Oriented Design"></card-block>
+      <card-block date="Spring 2014" title="Linear Algebra"></card-block>
+      <card-block date="Spring 2014" title="Probability and Statistics"></card-block>
+      <card-block date="Spring 2014" title="Elementary Russian 2"></card-block>
+      <card-block date="Summer 2014" title="Algorithms & Data"></card-block>
+      <card-block date="Summer 2014" title="Northeastern Dialog of Civilization: Russia"></card-block>
+      <card-block date="Fall 2014" title="Database Design"></card-block>
+      <card-block date="Fall 2014" title="Computer Systems"></card-block>
+      <card-block date="Fall 2014" title="Intro to Russian Civilization"></card-block>
+      <card-block date="Fall 2014" title="Intermediate Russian 2"></card-block>
+      <card-block date="Summer 2015" title="Advanced Writing in Tech Prof"></card-block>
+      <card-block date="Summer 2015" title="Modern Middle East"></card-block>
+      <card-block date="Fall 2015" title="Networks & Distributed Systems"></card-block>
+      <card-block date="Fall 2015" title="Software Development"></card-block>
+      <card-block date="Fall 2015" title="Human Computer Interaction"></card-block>
+      <card-block date="Fall 2015" title="Special Topics in Russian"></card-block>
+      <card-block date="Fall 2016" title="Theory of Computation"></card-block>
+      <card-block date="Fall 2016" title="Programming Languages"></card-block>
+      <card-block date="Fall 2016" title="Network Security"></card-block>
+      <card-block date="Fall 2016" title="Europ Jewish History 1750-1945"></card-block>
+      <card-block date="Spring 2017" title="Embedded Des Enabling Robotics"></card-block>
+      <card-block date="Spring 2017" title="Technology and Human Values"></card-block>
+    </scroll-box>
   </app-page>
-  <app-page title="Contact" id="Contact">
+  <app-page title="Contact" backgroundColor="#259e25" textColor="dark">
     <contact-form-block></contact-form-block>
   </app-page>
 </main>

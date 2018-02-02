@@ -14,6 +14,13 @@ export class AppComponent {
     this.root = root;
   }
 
+  public setBackground(background:string) {
+    return {
+      'background-image': `url("./assets/${background}")`,
+      'background-repeat': 'repeat'
+    }
+  }
+
   alert_scroll($event:Event):void {
     console.log(this.root.nativeElement.childNodes[0]);
   }

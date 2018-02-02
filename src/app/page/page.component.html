@@ -1,10 +1,10 @@
-<div>
+<div [style.backgroundImage]="background_image" [style.backgroundColor]="background_color" [style.backgroundSize]="background_size">
   <article>
-    <header>
+    <header [style.color]="header_color">
       <h2>{{title}}</h2>
     </header>
     <div>
-      <section>
+      <section [style.color]="body_color">
         <ng-content></ng-content>
       </section>
     </div>

@@ -4,7 +4,7 @@ html {
   padding: 0;
 
   body {
-    font-size: 18px;
+    font-size: 12px;
     margin: 0;
     padding: 0;
     background-color: #FFF;
@@ -36,20 +36,7 @@ html {
     }
 
     p {
-      font-family: 'Lora', serif;
+      font-family: 'Lato', sans-serif;
     }
-
-    table {
-
-      justify-content: flex-start;
-      border-collapse: collapse;
-      width: 100%;
-
-      th, td {
-        border: 1px solid #000;
-        padding: 5px;
-      }
-    }
-    
   }
 }

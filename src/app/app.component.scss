@@ -1,14 +1,14 @@
+$border-color: #666;
 
 main {
   display: block;
   height: 100vh;
-  // flex-direction: column;
-  // flex-basis: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
 
   navbar-block {
-    width: 100%;
+    width: 100vh;
     height: 10vh;
     padding: 0;
     margin: 0;
@@ -22,5 +22,39 @@ main {
     height: 90vh;
     margin: 0;
     padding: 0;
+  }
+}
+
+table {
+  color: #FFF;
+  border: 0;
+  margin-top: 10px;
+  box-shadow: 0 0 5px 3px #666;
+  margin: auto;
+  border-collapse: collapse;
+
+  th {
+    background-color: rgba(0,0,0,0.9);
+    font-size: 36px;
+    border-bottom: 4px solid $border-color;
+  }
+  tr {
+    background-color: rgba(#0C3C0C,0.90);
+    border: 0;
+  }
+  tr:nth-child(odd) {
+    background-color: rgba(#259e25,0.90);
+  }
+  td {
+    padding: 15px;
+    border: 0;
+  }
+  td:first-child {
+    border-left: 1px solid $border-color;
+    border-right: 1px solid $border-color;
+    border-top: 1px solid $border-color;
+  }
+  td:last-child {
+    border-top: 1px solid $border-color;
   }
 }

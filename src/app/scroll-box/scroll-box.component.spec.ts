@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AboutBlockComponent } from './about-block.component';
+import { ScrollBoxComponent } from './scroll-box.component';
 
-describe('AboutBlockComponent', () => {
-  let component: AboutBlockComponent;
-  let fixture: ComponentFixture<AboutBlockComponent>;
+describe('ScrollBoxComponent', () => {
+  let component: ScrollBoxComponent;
+  let fixture: ComponentFixture<ScrollBoxComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AboutBlockComponent ]
+      declarations: [ ScrollBoxComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AboutBlockComponent);
+    fixture = TestBed.createComponent(ScrollBoxComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
