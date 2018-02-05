@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, ViewEncapsulation } from '@angular/core';
+import { Component, OnInit, Input, ViewEncapsulation, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-page',
@@ -43,5 +43,9 @@ export class PageComponent implements OnInit {
       this.header_color = '#000'
       this.body_color = '#000'
     }
+  }
+
+  @HostListener('scroll') onKeypress() {
+    console.log('hi')
   }
 }

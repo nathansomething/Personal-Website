@@ -1,8 +1,8 @@
 <nav>
-  <h3><a href="#home">Nathan Goodman</a></h3>
+  <h3><a scrollTo href="#top">Nathan Goodman</a></h3>
   <ul>
     <li *ngFor="let nav_item of nav_items; let index = index">
-        <a (click)="setActive(nav_item, index)" [ngClass]="{active: active_item == index}" [href]="'#' + nav_item.replace(' ', '')">{{nav_item}}</a>
+        <a scrollTo (click)="setActive(nav_item, index)" [ngClass]="{active: active_item == index}" [href]="'#' + nav_item.replace(' ', '')">{{nav_item}}</a>
     </li>
   </ul>
   <ul>

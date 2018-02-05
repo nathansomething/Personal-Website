@@ -1,10 +1,9 @@
 <main>
   <navbar-block></navbar-block>
-  <!-- <intro-block></intro-block> -->
-  <app-page backgroundImage="background2.jpg" backgroundCover="true" textColor="light">
+  <app-page id="top" backgroundImage="background2.jpg" backgroundCover="true" textColor="light">
     <title-block header="Nathan Goodman" subHeader="Full Stack Software Developer"></title-block>
   </app-page>
-  <app-page title="About Me" backgroundImage="congruent_outline.png" backgroundCover="false" textColor="light">
+  <app-page id="AboutMe" title="About Me" backgroundImage="congruent_outline.png" backgroundCover="false" textColor="light">
     <scroll-box>
       <p>
         I am a Full Stack Software Developer with Quality Assurance experience located in Troy, New York. I was born and raised in Portland Oregon and obtained a Bachelor of Science in Computer Science at Northeastern University in Boston Massachusetts. Following college, I returned to my hometown where I married my then 7-year girlfriend and love of my life. We then moved to Troy, where she's pursuing a Ph.D. in biology at RPI.
@@ -29,7 +28,7 @@
       </p>
     </scroll-box>
   </app-page>
-  <app-page title="Professional Experience" backgroundImage="textured_paper.png" backgroundColor="#505c8c" textColor="dark">
+  <app-page id="ProfessionalExperience" title="Professional Experience" backgroundImage="textured_paper.png" backgroundColor="#505c8c" textColor="dark">
     <scroll-box>
       <card-block image-url="../assets/Commerce-Hub-Logo.png" title="Software Engineer In Test" date="August 2017 - January 2018" background="#708b9f">
         Performed Quality Assurance Oversights on Software Projects. Ensured that new software projects fulfilled their requirements. Assisted in development and maintenance of applications managed by the Edge Services Department (Java, Groovy, Grails, Dropwizard).
@@ -56,7 +55,7 @@
       </card-block>
     </scroll-box>
   </app-page>
-  <app-page title="Software Development Skills" backgroundImage="brown-brick.jpg" textColor="dark">
+  <app-page id="Skills" title="Software Development Skills" backgroundImage="brown-brick.jpg" textColor="dark">
     <table>
       <thead>
         <th>Category</th>
@@ -86,7 +85,7 @@
       </tbody>
     </table>
   </app-page>
-  <app-page title="Personal Projects" backgroundColor="#666" backgroundImage="binary-background.jpg" textColor="light">
+  <app-page id="Projects" title="Personal Projects" backgroundColor="#666" backgroundImage="binary-background.jpg" textColor="light">
     <scroll-box>
       <card-block title="NOTE" background="#9ca3bbF0">Many of these are hackathon projects and as such, their status and quality may vary greatly.</card-block>
       <card-block title="CollectTheFruit" background="#333c33F0">Mario style game in which a player collects fruit in the sky, and avoids the junk food.</card-block>
@@ -103,41 +102,41 @@
       <card-block title="Personal Website" background="#333c33F0">This website! It's build from scratch using angular 2.</card-block>
     </scroll-box>
   </app-page>
-    <app-page title="College Coursework" backgroundImage="clouds.jpg" backgroundCover="true">
+  <app-page id="Courses" title="College Coursework" backgroundImage="clouds.jpg" backgroundCover="true">
     <scroll-box>
       <card-block background="#157a15F0" date="Spring 2013" title="Discrete Structures"></card-block>
       <card-block background="#157a15F0" date="Spring 2013" title="Fundamentals of Computer Sci 1"></card-block>
       <card-block background="#157a15F0" date="Spring 2013" title="College Writing"></card-block>
-      <card-block background="#2f2f9eF0" date="Spring 2013" title="Elementary Russian 1"></card-block>
-      <card-block background="#2f2f9eF0" date="Fall 2013" title="Fundamentals of Computer Sci 2"></card-block>
-      <card-block background="#2f2f9eF0" date="Fall 2013" title="Logic and Computation"></card-block>
-      <card-block background="#2f2f9eF0" date="Fall 2013" title="Linguistic Analysis"></card-block>
-      <card-block background="#2f2f9eF0" date="Fall 2013" title="Calculus 2 for Sci/Engr"></card-block>
-      <card-block background="#2f2f9eF0" date="Spring 2014" title="Object-Oriented Design"></card-block>
-      <card-block background="#2f2f9eF0" date="Spring 2014" title="Linear Algebra"></card-block>
-      <card-block background="#2f2f9eF0" date="Spring 2014" title="Probability and Statistics"></card-block>
-      <card-block background="#2f2f9eF0" date="Spring 2014" title="Elementary Russian 2"></card-block>
-      <card-block background="#2f2f9eF0" date="Summer 2014" title="Algorithms & Data"></card-block>
-      <card-block background="#2f2f9eF0" date="Summer 2014" title="Northeastern Dialog of Civilization: Russia"></card-block>
-      <card-block background="#2f2f9eF0" date="Fall 2014" title="Database Design"></card-block>
-      <card-block background="#2f2f9eF0" date="Fall 2014" title="Computer Systems"></card-block>
-      <card-block background="#2f2f9eF0" date="Fall 2014" title="Intro to Russian Civilization"></card-block>
-      <card-block background="#2f2f9eF0" date="Fall 2014" title="Intermediate Russian 2"></card-block>
-      <card-block background="#2f2f9eF0" date="Summer 2015" title="Advanced Writing in Tech Prof"></card-block>
-      <card-block background="#2f2f9eF0" date="Summer 2015" title="Modern Middle East"></card-block>
-      <card-block background="#2f2f9eF0" date="Fall 2015" title="Networks & Distributed Systems"></card-block>
-      <card-block background="#2f2f9eF0" date="Fall 2015" title="Software Development"></card-block>
-      <card-block background="#2f2f9eF0" date="Fall 2015" title="Human Computer Interaction"></card-block>
-      <card-block background="#2f2f9eF0" date="Fall 2015" title="Special Topics in Russian"></card-block>
-      <card-block background="#2f2f9eF0" date="Fall 2016" title="Theory of Computation"></card-block>
-      <card-block background="#2f2f9eF0" date="Fall 2016" title="Programming Languages"></card-block>
-      <card-block background="#2f2f9eF0" date="Fall 2016" title="Network Security"></card-block>
-      <card-block background="#2f2f9eF0" date="Fall 2016" title="Europ Jewish History 1750-1945"></card-block>
-      <card-block background="#2f2f9eF0" date="Spring 2017" title="Embedded Des Enabling Robotics"></card-block>
-      <card-block background="#2f2f9eF0" date="Spring 2017" title="Technology and Human Values"></card-block>
+      <card-block background="#157a15F0" date="Spring 2013" title="Elementary Russian 1"></card-block>
+      <card-block background="#157a15F0" date="Fall 2013" title="Fundamentals of Computer Sci 2"></card-block>
+      <card-block background="#157a15F0" date="Fall 2013" title="Logic and Computation"></card-block>
+      <card-block background="#157a15F0" date="Fall 2013" title="Linguistic Analysis"></card-block>
+      <card-block background="#157a15F0" date="Fall 2013" title="Calculus 2 for Sci/Engr"></card-block>
+      <card-block background="#157a15F0" date="Spring 2014" title="Object-Oriented Design"></card-block>
+      <card-block background="#157a15F0" date="Spring 2014" title="Linear Algebra"></card-block>
+      <card-block background="#157a15F0" date="Spring 2014" title="Probability and Statistics"></card-block>
+      <card-block background="#157a15F0" date="Spring 2014" title="Elementary Russian 2"></card-block>
+      <card-block background="#157a15F0" date="Summer 2014" title="Algorithms & Data"></card-block>
+      <card-block background="#157a15F0" date="Summer 2014" title="Northeastern Dialog of Civilization: Russia"></card-block>
+      <card-block background="#157a15F0" date="Fall 2014" title="Database Design"></card-block>
+      <card-block background="#157a15F0" date="Fall 2014" title="Computer Systems"></card-block>
+      <card-block background="#157a15F0" date="Fall 2014" title="Intro to Russian Civilization"></card-block>
+      <card-block background="#157a15F0" date="Fall 2014" title="Intermediate Russian 2"></card-block>
+      <card-block background="#157a15F0" date="Summer 2015" title="Advanced Writing in Tech Prof"></card-block>
+      <card-block background="#157a15F0" date="Summer 2015" title="Modern Middle East"></card-block>
+      <card-block background="#157a15F0" date="Fall 2015" title="Networks & Distributed Systems"></card-block>
+      <card-block background="#157a15F0" date="Fall 2015" title="Software Development"></card-block>
+      <card-block background="#157a15F0" date="Fall 2015" title="Human Computer Interaction"></card-block>
+      <card-block background="#157a15F0" date="Fall 2015" title="Special Topics in Russian"></card-block>
+      <card-block background="#157a15F0" date="Fall 2016" title="Theory of Computation"></card-block>
+      <card-block background="#157a15F0" date="Fall 2016" title="Programming Languages"></card-block>
+      <card-block background="#157a15F0" date="Fall 2016" title="Network Security"></card-block>
+      <card-block background="#157a15F0" date="Fall 2016" title="Europ Jewish History 1750-1945"></card-block>
+      <card-block background="#157a15F0" date="Spring 2017" title="Embedded Des Enabling Robotics"></card-block>
+      <card-block background="#157a15F0" date="Spring 2017" title="Technology and Human Values"></card-block>
     </scroll-box>
   </app-page>
-  <app-page title="Contact Form" backgroundColor="#157a15" textColor="dark">
+  <app-page id="Contact" title="Contact Form" backgroundColor="#157a15" textColor="dark">
     <contact-form-block></contact-form-block>
   </app-page>
 </main>

@@ -2,10 +2,12 @@ $border-color: #222;
 
 main {
   display: block;
-  height: 100vh;
+  height: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
   font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 table {
