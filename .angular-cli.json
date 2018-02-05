@@ -7,7 +7,7 @@
   "apps": [
     {
       "root": "src",
-      "outDir": "dist",
+      "outDir": "nathansomething.github.io",
       "assets": [
         "assets",
         "favicon.ico"
