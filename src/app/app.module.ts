@@ -7,15 +7,15 @@ import { Ng2PageScrollModule } from 'ng2-page-scroll';
 import { AppComponent } from './app.component';
 import { NavbarBlockComponent } from './navbar-block/navbar-block.component';
 import { IntroBlockComponent } from './intro-block/intro-block.component';
-import { AboutBlockComponent } from './about-block/about-block.component';
 import { PageComponent } from './page/page.component';
 import { PadBlockComponent } from './pad-block/pad-block.component';
 import { CardBlockComponent } from './card-block/card-block.component';
 import { ContactFormBlockComponent } from './contact-form-block/contact-form-block.component';
 import { ScrollBoxComponent } from './scroll-box/scroll-box.component';
+import { TitleBlockComponent } from './title-block/title-block.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarBlockComponent, IntroBlockComponent, AboutBlockComponent, PageComponent, PadBlockComponent, CardBlockComponent, ContactFormBlockComponent, ScrollBoxComponent],
+  declarations: [AppComponent, NavbarBlockComponent, IntroBlockComponent, PageComponent, PadBlockComponent, CardBlockComponent, ContactFormBlockComponent, ScrollBoxComponent, TitleBlockComponent],
   imports: [BrowserModule,FormsModule,HttpModule,Ng2PageScrollModule.forRoot()],
   providers: [],
   bootstrap: [AppComponent]

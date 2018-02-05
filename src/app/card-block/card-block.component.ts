@@ -8,12 +8,14 @@ import { Component, OnInit, Input } from '@angular/core';
 export class CardBlockComponent implements OnInit {
 
   @Input('image-url') image_url:string;
-  @Input('title') title:string;
-  @Input('date') date:string;
+  @Input() title:string;
+  @Input() date:string;
+  @Input() background:string;
 
-  constructor() { }
-
-  ngOnInit() {
+  constructor() {
+    this.background = ""
   }
+
+  ngOnInit() { }
 
 }
